@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo cp $HOME/.local/share/system76-graphics-conf/hybrid.conf /etc/modprobe.d/system76-power.conf
+sudo mkinitcpio -p linux
